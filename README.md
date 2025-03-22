@@ -3,7 +3,7 @@
 **A completely unnecessary and arguably irresponsible way to store files in the Windows Event Log.**
 ## Overview
 
-Traditionally, event logs exist to record system activity, security events, and the occasional existential crisis of Windows Update. I created **Palimpsest** to ask the ever important question: _What if I could store my entire movie collection in the Windows Event Log?_
+Traditionally, event logs exist to record system activity, security events, and the occasional existential crisis of Windows Update. I created **Palimpsest** to ask the ever important question: _What if I could store my entire movie collection in the Windows Event Log?_ You can follow that journey in [my blog](https://blog.rice.is/post/logjam/), and this project is the product of that research.
 
 This module allows you to:
 
