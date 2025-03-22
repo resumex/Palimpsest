@@ -43,7 +43,7 @@ Invoke-Palimpsest -Path C:\path\to\file.txt -Import
 This will:
 
 - Slice the file into 32KB chunks (the event log entry size limit).
-- Store the chunks as structured entries in a dedicated custom log. The actual raw data is stored in the `lpRawData` field.
+- Store the chunks as structured entries in a dedicated custom log. The actual raw data is stored in the `lpRawData` buffer.
 - Export the resulting `.evtx` file to the current directory and clean up any newly created event sources from Windows.
 
 ### Extracting a File from Windows Event Logs
